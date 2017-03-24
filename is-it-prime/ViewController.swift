@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func submitNumber(_ sender: Any) {
+        
+        
+        
+    }
+    
+    @IBOutlet var numberEntryField: UITextField!
+    
+    @IBOutlet var resultField: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -47,6 +47,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="👉LET'S FIND OUT IF IT'S PRIME!!!"/>
+                                <connections>
+                                    <action selector="submitNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T7x-QI-aDs"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IT'S PRIME!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E92-w3-eBF">
                                 <rect key="frame" x="20" y="337" width="374" height="230"/>
@@ -69,6 +72,10 @@
                             <constraint firstItem="qPE-rO-qsW" firstAttribute="centerX" secondItem="KTC-Se-GTZ" secondAttribute="centerX" id="s8v-gy-jCB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberEntryField" destination="qPE-rO-qsW" id="bpn-a0-T01"/>
+                        <outlet property="resultField" destination="E92-w3-eBF" id="ihQ-ek-JUa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
